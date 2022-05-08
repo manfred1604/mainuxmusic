@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Koulen', cursive;
+
+}
+
+
+/*header PAGINA 1*/
+
+header {
+    background-color: black;
+}
+
+.header2{
+    background-color: white;
+}
+
+
+/*HEADER PAG 2*/
+
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header2{
+    display: flex;
+    justify-content: space-between;
+}
+
+header img{
+    height: 60px;
+    width: 380px;
+}
+
+
+.nav-item a{
+    color: white!important;
+}
+
+.nav-item2 a{
+    color: rgb(0, 0, 0)!important;
+}
+
+
+
+
+/*/header*/
+
+/*presentacio*/
+
+.presentacion{
+background-image: url(./img/pexels-adrien-olichon-2387793.jpg) ;
+    background-size: cover;
+   height: 835px;
+}
+
+h1{
+    font-size: 77px;
+    color: white;}
+
+
+.presentacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+/*section2*/
+
+.description-m{
+    height:935px ;
+    background-color: black;
+}
+
+.texto-presentacion{
+    width: 50%;
+    color: white; 
+     display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text-p p{
+    font-size: 30px;
+    text-align: center;
+   
+}
+
+
+.logo-presentacion{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-presentacion{
+    height: 395px;
+    width: 550px; 
+    background-image: url(./img/Logo\ MainuxMusic-02.png);
+    background-size: cover;
+    transition-duration: 1000ms;
+    animation: slideMe  1s ease-in;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+
+    
+}
+
+@keyframes slideMe{
+     0%{
+         transform:skewX(0deg) translateX(50px);
+     }
+     100%{
+         transform: skew(0deg);
+     }
+
+
+     }
+
+
+
+
+/* section3 */
+
+
+
+
+
+/*section4*/
+.form{
+    height:835px ;
+}
+
+.formulario{
+    height:835px ;
+
+}
+
+.left{
+    width: 50%;
+    color: rgb(0, 0, 0);
+}
+
+.right{
+    width: 50%;
+}
+
+
+
+
+
+
+/*Footer*/
+.footer{
+    background-color: black;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes{
+    justify-content: space-between;
+    width: 400px;
+    
+
+
+}
+
+.fa-brands {
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+
+}
+
+/*pagina2*/
+
+
+/*section2*/
